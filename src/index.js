@@ -1,1 +1,5 @@
-console.log('Hello restaurant!');
+import pageLoad from './pageload';
+import renderHome from './home';
+
+pageLoad();
+renderHome();
