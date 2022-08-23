@@ -39,7 +39,7 @@ const renderMenu = () => {
             <img src="./img/draft-beer.png" alt="Draft Beer">
             <h2>Draft Beer</h2>
             <p>$5.99</p>
-            <p>An incredibly cold draft beer to you</p>
+            <p>An incredibly cold beer for you</p>
         </div>
     </div>
     `;

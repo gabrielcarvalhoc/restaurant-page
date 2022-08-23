@@ -1,6 +1,7 @@
 import pageLoad from './pageload';
 import renderHome from './home';
 import renderMenu from './menu';
+import renderContact from './contact';
 
 pageLoad();
 renderHome();
@@ -23,6 +24,10 @@ function switchTab() {
             if (tab.id === 'menu-tab') {
                 clearContent();
                 renderMenu();
+            }
+            if (tab.id === 'contact-tab') {
+                clearContent();
+                renderContact();
             }
         })
     })
