@@ -42,6 +42,10 @@ body {
     cursor: pointer;
 }
 
+.header-nav ul li:hover {
+    border-bottom: 1px solid #e7e7e7;
+}
+
 .home {
     text-align: center;
     padding-top: 5vh;
