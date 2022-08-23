@@ -6,7 +6,7 @@ const renderHome = () => {
     main.innerHTML = `
     <p>Best burger in the world.</p>
     <p>You'll never eat something like this!</p>
-    `
+    `;
 
     content.appendChild(main);
 }
